@@ -1,0 +1,7 @@
+Options -Indexes
+IndexIgnore App/ Secret/
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-z]+)/?$ ./App/$1.php
