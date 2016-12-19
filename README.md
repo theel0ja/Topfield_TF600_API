@@ -1,5 +1,5 @@
 # Topfield_TF600_API
-Topfield TF600's JSON API, what get data from Topfield digibox's WLAN web interface.
+Unofficial JSON API for Topfield TF600, what get data from Topfield digibox's WLAN web interface.
 
 ## Tested with
 
