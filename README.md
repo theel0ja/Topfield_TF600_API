@@ -37,3 +37,33 @@ Example response:
     }
 }
 ```
+
+### Get harddisk usage
+`http://path.to/your.api/harddisk`
+
+Example response:
+```
+{
+    "total_space": "305242",
+    "occupied_space": "302302",
+    "used_space": 299362,
+    "free_space": "2940"
+}
+```
+The values are in megabytes.
+
+### Get box time
+`http://path.to/your.api/harddisk`
+
+Example response:
+```
+{
+    "year": "2016",
+    "month": "12",
+    "day": "20",
+    "hour": "15",
+    "minute": "43",
+    "second": "49"
+}
+```
+The values are in megabytes.

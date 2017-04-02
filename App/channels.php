@@ -1,6 +1,6 @@
 <?php
     /*
-     * Topfield_TF600_API 0.0.1
+     * Topfield_TF600_API 0.0.2
      * https://github.com/theel0ja/Topfield_TF600_API
      * MIT LICENSED
      * (C) Elias Ojala 2016
@@ -61,8 +61,11 @@
                 $nyk = explode(". ", $nyk);
                 
                 //echo ',"' . $nyk[0] . '": {"ch": "' . $nyk[0] . '", "' . $nyk[1] . '"}';
-                $Channels[ $nyk[0] ]["id"] = $nyk[0];
-                $Channels[ $nyk[0] ]["name"] = $nyk[1];
+                
+                if($nyk[1] != "Not Displayable") {
+                    $Channels[ $nyk[0] ]["id"] = $nyk[0];
+                    $Channels[ $nyk[0] ]["name"] = $nyk[1];
+                }
             }
             
             /*if($var[$i] == "") {
