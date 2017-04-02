@@ -66,4 +66,3 @@ Example response:
     "second": "49"
 }
 ```
-The values are in megabytes.
