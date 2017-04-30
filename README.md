@@ -17,7 +17,7 @@ This don't have much features (more is coming), but there are current features:
 `http://path.to/your.api/channels`
 
 Example response:
-```
+```json
 {
     "1": {
         "id": "1",
@@ -42,7 +42,7 @@ Example response:
 `http://path.to/your.api/harddisk`
 
 Example response:
-```
+```json
 {
     "total_space": "305242",
     "occupied_space": "302302",
@@ -56,7 +56,7 @@ The values are in megabytes.
 `http://path.to/your.api/harddisk`
 
 Example response:
-```
+```json
 {
     "year": "2016",
     "month": "12",
